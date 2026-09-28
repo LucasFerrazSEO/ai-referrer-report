@@ -1,0 +1,22 @@
+{
+  "version": "2026-09-28",
+  "description": "Open list of AI assistant referrer domains. A source matches when its host equals the domain or is a subdomain of it. Optional path_prefix restricts the match to referrer URLs whose path starts with it (only usable with the Page referrer dimension, which carries the full URL).",
+  "platforms": {
+    "chatgpt":    [{"domain": "chatgpt.com"}, {"domain": "chat.openai.com"}],
+    "perplexity": [{"domain": "perplexity.ai"}],
+    "gemini":     [{"domain": "gemini.google.com"}, {"domain": "bard.google.com"}],
+    "claude":     [{"domain": "claude.ai"}],
+    "copilot":    [{"domain": "copilot.microsoft.com"}, {"domain": "edgeservices.bing.com"}],
+    "outra-ia":   [
+      {"domain": "you.com"},
+      {"domain": "phind.com"},
+      {"domain": "poe.com"},
+      {"domain": "chat.deepseek.com"},
+      {"domain": "meta.ai"},
+      {"domain": "grok.com"},
+      {"domain": "x.ai"},
+      {"domain": "chat.mistral.ai"},
+      {"domain": "kagi.com", "path_prefix": "/assistant"}
+    ]
+  }
+}

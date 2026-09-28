@@ -1,0 +1,25 @@
+# ----------------------------------------
+# Aquisição de tráfego: origem da sessão
+# Conta: Exemplo (dados fictícios)
+# Propriedade: example.com
+# ----------------------------------------
+#
+# Todos os usuários
+# Data de início: 20260801
+# Data de término: 20260831
+Origem da sessão,Página de destino,Sessões,Sessões engajadas,Usuários ativos,Eventos principais
+google,/,1840,1102,1511,14
+google,/servicos/criacao-de-sites/,960,655,812,11
+(direct),/,720,301,640,6
+chatgpt.com,/servicos/criacao-de-sites/,64,51,58,3
+chatgpt.com,/blog/quanto-custa-um-site/,41,30,37,1
+perplexity.ai,/blog/quanto-custa-um-site/,22,18,20,1
+www.perplexity.ai,/,6,5,6,0
+gemini.google.com,/servicos/consultoria-de-seo/,15,11,14,1
+claude.ai,/blog/o-que-e-seo/,9,8,9,0
+copilot.microsoft.com,/,5,3,5,0
+edgeservices.bing.com,/servicos/criacao-de-sites/,4,2,4,0
+chat.deepseek.com,/blog/o-que-e-seo/,3,2,3,0
+bing,/,210,120,190,2
+kagi.com,/,4,3,4,0
+l.facebook.com,/,88,20,80,0
